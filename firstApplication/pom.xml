@@ -12,7 +12,8 @@
     <artifactId>firstApplication</artifactId>
 
     <properties>
-        <java.version>${java.version}</java.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
     </properties>
 
     <dependencies>
@@ -102,6 +103,7 @@
         </dependency>
 
     </dependencies>
+
     <!--SpringCloud所有依赖管理的坐标-->
     <dependencyManagement>
         <dependencies>
