@@ -1,4 +1,4 @@
-package com.hebiao.spring;
+package com.learn.spring;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
